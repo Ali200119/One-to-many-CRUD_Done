@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{8193BF49-FAEB-4F9C-937C-1002363AD06C}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Elearn/Areas/Admin/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Elearn/Areas/Admin/Views/Shared/_Layout.cshtml" Line="308" Column="82" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Elearn" expanded="True">
+            <Node name="Elearn" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Dashboard" expanded="True" />
+                    <Node name="Shared" expanded="True">
+                      <Node name="_Layout.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Elearn PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
