@@ -20,6 +20,9 @@
     <None Remove="Areas\Admin\Views\" />
     <None Remove="Areas\Admin\Views\Shared\" />
     <None Remove="Areas\Admin\Views\Dashboard\" />
+    <None Remove="Areas\Admin\ViewModels\" />
+    <None Remove="Areas\Admin\ViewModels\Course\" />
+    <None Remove="Areas\Admin\Views\Course\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -33,6 +36,9 @@
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Admin\Views\Dashboard\" />
+    <Folder Include="Areas\Admin\ViewModels\" />
+    <Folder Include="Areas\Admin\ViewModels\Course\" />
+    <Folder Include="Areas\Admin\Views\Course\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
