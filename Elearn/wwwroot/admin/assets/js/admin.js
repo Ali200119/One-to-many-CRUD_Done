@@ -6,7 +6,7 @@
         let data = { id: imageId };
 
         $.ajax({
-            url: "/Admin/Product/DeleteProductImage",
+            url: "/Admin/Course/DeleteCourseImage",
             type: "POST",
             data: data,
             success: function (res) {

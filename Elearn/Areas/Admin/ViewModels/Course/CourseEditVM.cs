@@ -22,9 +22,8 @@ namespace Elearn.Areas.Admin.ViewModels.Course
 
         public int AuthorId { get; set; }
 
-        [Required]
-        public List<IFormFile> Photos { get; set; }
+        public List<IFormFile>? Photos { get; set; }
 
-        public List<CourseImage> Images { get; set; }
+        public List<CourseImage>? Images { get; set; }
     }
 }
