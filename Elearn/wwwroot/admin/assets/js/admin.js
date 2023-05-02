@@ -15,7 +15,11 @@
                 }
 
                 else {
-                    alert("There must be at least 1 image")
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Course must have at least 1 image'
+                    })
                 }
 
             }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Td2ZIUmT9zzNgVQR0vCO2Dejlc8gmFPq1nr12EfuCv4=",
+  "Hash": "jkTV0vis45feOEoA2ahi0xV8a4ahDerKmaimlEjC9oY=",
   "Source": "Elearn",
   "BasePath": "_content/Elearn",
   "Mode": "Default",
@@ -15045,23 +15045,6 @@
       "OriginalItemSpec": "wwwroot/images/about_1.jpg"
     },
     {
-      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/b0b4e28b-e278-4c40-aade-a1908a01b4f6_Marvel's Spider-Man 2 (Venom).jpeg",
-      "SourceId": "Elearn",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
-      "BasePath": "_content/Elearn",
-      "RelativePath": "images/b0b4e28b-e278-4c40-aade-a1908a01b4f6_Marvel's Spider-Man 2 (Venom).jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/b0b4e28b-e278-4c40-aade-a1908a01b4f6_Marvel's Spider-Man 2 (Venom).jpeg"
-    },
-    {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/course_1.jpg",
       "SourceId": "Elearn",
       "SourceType": "Discovered",
@@ -15247,23 +15230,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/course_author_3.jpg"
-    },
-    {
-      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/da3b8134-ccac-44f9-9a79-e3d24c783450_Marvel's Spider-Man 2 (Venom).jpeg",
-      "SourceId": "Elearn",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
-      "BasePath": "_content/Elearn",
-      "RelativePath": "images/da3b8134-ccac-44f9-9a79-e3d24c783450_Marvel's Spider-Man 2 (Venom).jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/da3b8134-ccac-44f9-9a79-e3d24c783450_Marvel's Spider-Man 2 (Venom).jpeg"
     },
     {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/elearn.jpg",
