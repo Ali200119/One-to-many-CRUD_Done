@@ -141,6 +141,139 @@ namespace Elearn.Areas.Admin.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            ViewBag.Authors = await GetAuthorsAsync();
+
+            Course dbCourse = await _context.Course.Include(c => c.CourseImages).Include(c => c.Author).FirstOrDefaultAsync(c => c.Id == id);
+
+            if (dbCourse == null) return NotFound();
+
+
+            CourseEditVM model = new()
+            {
+                Id = dbCourse.Id,
+                Title = dbCourse.Title,
+                Sales = dbCourse.Sales,
+                Price = dbCourse.Price.ToString("0.#####"),
+                AuthorId = dbCourse.AuthorId,
+                Images = dbCourse.CourseImages.ToList(),
+                Description = dbCourse.Description
+            };
+
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int? id, CourseEditVM updatedCourse)
+        {
+            if (id == null) return BadRequest();
+
+            ViewBag.Authors = await GetAuthorsAsync();
+
+            Course dbCourse = await _context.Course.AsNoTracking().Include(c => c.CourseImages).Include(c => c.Author).FirstOrDefaultAsync(c => c.Id == id);
+
+            if (dbCourse == null) return NotFound();
+
+            if (!ModelState.IsValid)
+            {
+                updatedCourse.Images = dbCourse.CourseImages.ToList();
+                return View(updatedCourse);
+            }
+
+            List<CourseImage> courseImages = new();
+
+            if (updatedCourse.Photos is not null)
+            {
+                foreach (var photo in updatedCourse.Photos)
+                {
+                    if (!photo.CheckFileType("image/"))
+                    {
+                        ModelState.AddModelError("Photo", "File type must be image.");
+                        updatedCourse.Images = dbCourse.CourseImages.ToList();
+                        return View(dbCourse);
+                    }
+                }
+
+                foreach (var photo in updatedCourse.Photos)
+                {
+                    string fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
+
+                    string path = FileHelper.GetFilePath(_env.WebRootPath, "images", fileName);
+
+                    await photo.CreateLocalFileAsync(path);
+
+                    CourseImage courseImage = new()
+                    {
+                        Name = fileName
+                    };
+
+                    courseImages.Add(courseImage);
+                }
+
+                await _context.CourseImages.AddRangeAsync(courseImages);
+            }
+
+            decimal convertedPrice = decimal.Parse(updatedCourse.Price.Replace(".", ","));
+
+            Course newCourse = new()
+            {
+                Id = updatedCourse.Id,
+                Title = updatedCourse.Title,
+                Price = convertedPrice,
+                Sales = updatedCourse.Sales,
+                Description = updatedCourse.Description,
+                AuthorId = updatedCourse.AuthorId,
+                CourseImages = courseImages.Count == 0 ? dbCourse.CourseImages : courseImages
+            };
+
+
+            _context.Course.Update(newCourse);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteCourseImage(int? id)
+        {
+            if (id == null) return BadRequest();
+
+            bool result = false;
+
+            CourseImage courseImage = await _context.CourseImages.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (courseImage is null) return NotFound();
+
+            Course course = await _context.Course.Include(c => c.CourseImages).FirstOrDefaultAsync(c => c.Id == courseImage.CourseId);
+
+            if (course.CourseImages.Count > 1)
+            {
+                string path = FileHelper.GetFilePath(_env.WebRootPath, "images", courseImage.Name);
+
+                FileHelper.DeleteFileFromPath(path);
+
+                _context.CourseImages.Remove(courseImage);
+
+                await _context.SaveChangesAsync();
+
+                result = true;
+            }
+
+            course.CourseImages.FirstOrDefault().IsMain = true;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(result);
+
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int? id)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rGQ9WcnuE2BmYPRKWFapkp7J6+6wDro2jO5si6cok9E=",
+  "Hash": "5TUbNCyuuh1kbC6NEtpm6gOBvhoFY54p7skIfdo/jRg=",
   "Source": "Elearn",
   "BasePath": "_content/Elearn",
   "Mode": "Default",
@@ -4639,6 +4639,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/admin/assets/js/.DS_Store"
+    },
+    {
+      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/admin/assets/js/admin.js",
+      "SourceId": "Elearn",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
+      "BasePath": "_content/Elearn",
+      "RelativePath": "admin/assets/js/admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/admin/assets/js/admin.js"
     },
     {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/admin/assets/js/chart.js",
@@ -15011,6 +15028,23 @@
       "OriginalItemSpec": "wwwroot/admin/gulpfile.js"
     },
     {
+      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/493862f7-a59c-43fd-be24-28bc9c13f4bb_Marvel's Spider-Man 2 (Peter).jpeg",
+      "SourceId": "Elearn",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
+      "BasePath": "_content/Elearn",
+      "RelativePath": "images/493862f7-a59c-43fd-be24-28bc9c13f4bb_Marvel's Spider-Man 2 (Peter).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/493862f7-a59c-43fd-be24-28bc9c13f4bb_Marvel's Spider-Man 2 (Peter).jpeg"
+    },
+    {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/about_1.jpg",
       "SourceId": "Elearn",
       "SourceType": "Discovered",
@@ -15026,6 +15060,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/about_1.jpg"
+    },
+    {
+      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/caa8071b-efac-48e5-b1bc-850f019f91b5_Marvel's Spider-Man (3).jpeg",
+      "SourceId": "Elearn",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
+      "BasePath": "_content/Elearn",
+      "RelativePath": "images/caa8071b-efac-48e5-b1bc-850f019f91b5_Marvel's Spider-Man (3).jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/caa8071b-efac-48e5-b1bc-850f019f91b5_Marvel's Spider-Man (3).jpeg"
     },
     {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/course_1.jpg",
@@ -15213,40 +15264,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/course_author_3.jpg"
-    },
-    {
-      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/d825d5ff-022f-454a-9228-6a0bff915c21_Adrien Hobbs.jpeg",
-      "SourceId": "Elearn",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
-      "BasePath": "_content/Elearn",
-      "RelativePath": "images/d825d5ff-022f-454a-9228-6a0bff915c21_Adrien Hobbs.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/d825d5ff-022f-454a-9228-6a0bff915c21_Adrien Hobbs.jpeg"
-    },
-    {
-      "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/e1b54c3f-592f-48a4-a05c-5dfa17ba7cdf_Michal Zych.jpeg",
-      "SourceId": "Elearn",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/",
-      "BasePath": "_content/Elearn",
-      "RelativePath": "images/e1b54c3f-592f-48a4-a05c-5dfa17ba7cdf_Michal Zych.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/e1b54c3f-592f-48a4-a05c-5dfa17ba7cdf_Michal Zych.jpeg"
     },
     {
       "Identity": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/elearn.jpg",

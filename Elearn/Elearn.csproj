@@ -41,6 +41,7 @@
     <Folder Include="Areas\Admin\ViewModels\Course\" />
     <Folder Include="Areas\Admin\Views\Course\" />
     <Folder Include="Helpers\" />
+    <Folder Include="wwwroot\admin\assets\js\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
@@ -56,5 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\admin\" />
+    <Content Remove="wwwroot\admin\assets\js\" />
+    <Content Remove="wwwroot\admin\js\admin.js" />
   </ItemGroup>
 </Project>

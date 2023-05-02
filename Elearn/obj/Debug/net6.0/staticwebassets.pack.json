@@ -1089,6 +1089,10 @@
       "PackagePath": "staticwebassets/admin/assets/js/.DS_Store"
     },
     {
+      "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/admin/assets/js/admin.js",
+      "PackagePath": "staticwebassets/admin/assets/js/admin.js"
+    },
+    {
       "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/admin/assets/js/chart.js",
       "PackagePath": "staticwebassets/admin/assets/js/chart.js"
     },
@@ -3529,8 +3533,16 @@
       "PackagePath": "staticwebassets/admin/gulpfile.js"
     },
     {
+      "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/493862f7-a59c-43fd-be24-28bc9c13f4bb_Marvel's Spider-Man 2 (Peter).jpeg",
+      "PackagePath": "staticwebassets/images/493862f7-a59c-43fd-be24-28bc9c13f4bb_Marvel's Spider-Man 2 (Peter).jpeg"
+    },
+    {
       "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/about_1.jpg",
       "PackagePath": "staticwebassets/images/about_1.jpg"
+    },
+    {
+      "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/caa8071b-efac-48e5-b1bc-850f019f91b5_Marvel's Spider-Man (3).jpeg",
+      "PackagePath": "staticwebassets/images/caa8071b-efac-48e5-b1bc-850f019f91b5_Marvel's Spider-Man (3).jpeg"
     },
     {
       "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/course_1.jpg",
@@ -3575,14 +3587,6 @@
     {
       "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/course_author_3.jpg",
       "PackagePath": "staticwebassets/images/course_author_3.jpg"
-    },
-    {
-      "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/d825d5ff-022f-454a-9228-6a0bff915c21_Adrien Hobbs.jpeg",
-      "PackagePath": "staticwebassets/images/d825d5ff-022f-454a-9228-6a0bff915c21_Adrien Hobbs.jpeg"
-    },
-    {
-      "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/e1b54c3f-592f-48a4-a05c-5dfa17ba7cdf_Michal Zych.jpeg",
-      "PackagePath": "staticwebassets/images/e1b54c3f-592f-48a4-a05c-5dfa17ba7cdf_Michal Zych.jpeg"
     },
     {
       "Id": "/Users/ali200119/Desktop/One-to-many-CRUD_Done/Elearn/wwwroot/images/elearn.jpg",
