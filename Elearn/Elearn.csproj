@@ -23,6 +23,7 @@
     <None Remove="Areas\Admin\ViewModels\" />
     <None Remove="Areas\Admin\ViewModels\Course\" />
     <None Remove="Areas\Admin\Views\Course\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -39,6 +40,7 @@
     <Folder Include="Areas\Admin\ViewModels\" />
     <Folder Include="Areas\Admin\ViewModels\Course\" />
     <Folder Include="Areas\Admin\Views\Course\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
